@@ -12,8 +12,6 @@ public class HomeController {
         return "pet store  application running";
 
     }
-    @GetMapping("/")
-    public  String displayWlecomePage(){
-        return "welcome";
-    }
+    @GetMapping("/page")
+    public  String displayWelcomePage(){ return "welcome"; }
 }

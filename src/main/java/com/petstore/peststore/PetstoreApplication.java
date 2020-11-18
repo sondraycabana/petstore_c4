@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PeststoreApplication {
+public class PetstoreApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(PeststoreApplication.class, args);
+		SpringApplication.run(PetstoreApplication.class, args);
 	}
 
 }
