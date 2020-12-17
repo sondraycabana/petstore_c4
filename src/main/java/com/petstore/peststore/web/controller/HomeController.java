@@ -10,8 +10,8 @@ public class HomeController {
     @GetMapping("/welcome")
     public  @ResponseBody  String  welcomeMessage(){
         return "pet store  application running";
-
     }
+
     @GetMapping("/page")
     public  String displayWelcomePage(){ return "welcome"; }
 }

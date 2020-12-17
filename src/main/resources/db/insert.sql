@@ -4,7 +4,12 @@ truncate table pet;
 truncate table store;
 --fetchin data
 INSERT into  store(`id`,`name`,`location`,`contact_no`)
-VALUES(21,  'super store','nassarawa','90987');
+VALUES(21,  'super store','nassarawa','90987'),
+(22, 'king cabana store', 'Lagos','080987656'),
+(29, 'E-centre store', 'Lagos','080987645'),
+(23, 'Domino store', 'Abuja','080981234'),
+(24, 'Shoprite store', 'Lagos','080987645');
+
 
 INSERT into pet (`id`,`name`,`color`,`breed`,`age`,`pet_sex`,`store_id`)
 VALUE(31, 'jill','blue','parot','6','MALE','21'),

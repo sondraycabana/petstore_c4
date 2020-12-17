@@ -17,7 +17,9 @@ public class Store {
     private String location;
     private  String contactNo;
     //devour the concept
-    @OneToMany(mappedBy = "store", cascade = CascadeType.ALL)
+    //@OneToMany(mappedBy = "store", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "store",cascade = {CascadeType.ALL}, orphanRemoval = true, fetch = FetchType.EAGER)
+
     private List<Pet> petList;
 
     public void addPets(Pet pet){
